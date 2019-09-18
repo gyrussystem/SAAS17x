@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Masters" duration-ms="789004" started-at="2019-08-27T08:44:21Z" finished-at="2019-08-27T08:57:30Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="25156" started-at="2019-08-27T08:44:21Z" finished-at="2019-08-27T08:44:46Z">
+      <class name="Master.LogIn">
+        <test-method status="PASS" signature="CheckTestCaseExecution()[pri:0, instance:Master.LogIn@3632be31]" name="CheckTestCaseExecution" is-config="true" duration-ms="0" started-at="2019-08-27T08:44:21Z" finished-at="2019-08-27T08:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTestCaseExecution -->
+        <test-method status="PASS" signature="Log_In(java.lang.String, java.lang.String)[pri:0, instance:Master.LogIn@3632be31]" name="Log_In" duration-ms="25135" started-at="2019-08-27T08:44:21Z" data-provider="getTestData" finished-at="2019-08-27T08:44:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vipul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vipul]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log_In -->
+      </class> <!-- Master.LogIn -->
+    </test> <!-- Login -->
+    <test name="Add_Employee" duration-ms="103918" started-at="2019-08-27T08:44:46Z" finished-at="2019-08-27T08:46:30Z">
+      <class name="Manage_System.Employee.Add_Employee">
+        <test-method status="PASS" signature="CheckTestCaseExecution()[pri:0, instance:Manage_System.Employee.Add_Employee@7fac631b]" name="CheckTestCaseExecution" is-config="true" duration-ms="0" started-at="2019-08-27T08:44:46Z" finished-at="2019-08-27T08:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTestCaseExecution -->
+        <test-method status="PASS" signature="Adding_Employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.CharSequence)[pri:1, instance:Manage_System.Employee.Add_Employee@7fac631b]" name="Adding_Employee" duration-ms="103911" started-at="2019-08-27T08:44:46Z" data-provider="Testdata" finished-at="2019-08-27T08:46:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EMP501]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Auto Tester 101]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Auto Tester 101]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[autotester@autogmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Adhara Card]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sr.]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[SNS Platina]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Vesu]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Surat]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Gujarat]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[395007]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Automation testing of Employee form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adding_Employee -->
+      </class> <!-- Manage_System.Employee.Add_Employee -->
+    </test> <!-- Add_Employee -->
+    <test name="Emoployee_Functionality" duration-ms="263925" started-at="2019-08-27T08:46:30Z" finished-at="2019-08-27T08:50:54Z">
+      <class name="Manage_System.Employee.Emoployee_Functionality">
+        <test-method status="PASS" signature="CheckTestCaseExecution()[pri:0, instance:Manage_System.Employee.Emoployee_Functionality@610694f1]" name="CheckTestCaseExecution" is-config="true" duration-ms="1" started-at="2019-08-27T08:46:30Z" finished-at="2019-08-27T08:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTestCaseExecution -->
+        <test-method status="PASS" signature="View_Add_Employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.CharSequence)[pri:1, instance:Manage_System.Employee.Emoployee_Functionality@610694f1]" name="View_Add_Employee" duration-ms="85679" started-at="2019-08-27T08:46:30Z" data-provider="Testdata1" finished-at="2019-08-27T08:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EMP505]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Auto Tester 105]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Auto Tester 105]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[autotester101@autogmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Manual]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Driving License]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Jr.]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[SNS Platina]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Vesu]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Surat]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Gujarat]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[395007]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[9586461517]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Automation testing of Employee form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- View_Add_Employee -->
+        <test-method status="PASS" signature="Edit_Employee()[pri:2, instance:Manage_System.Employee.Emoployee_Functionality@610694f1]" name="Edit_Employee" duration-ms="64574" started-at="2019-08-27T08:47:56Z" finished-at="2019-08-27T08:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Employee -->
+        <test-method status="PASS" signature="Deactivate_Employee()[pri:3, instance:Manage_System.Employee.Emoployee_Functionality@610694f1]" name="Deactivate_Employee" duration-ms="22020" started-at="2019-08-27T08:49:00Z" finished-at="2019-08-27T08:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deactivate_Employee -->
+        <test-method status="PASS" signature="Delete_Employee()[pri:4, instance:Manage_System.Employee.Emoployee_Functionality@610694f1]" name="Delete_Employee" duration-ms="19134" started-at="2019-08-27T08:49:22Z" finished-at="2019-08-27T08:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Employee -->
+        <test-method status="PASS" signature="Action_Employee_Functioanlity()[pri:5, instance:Manage_System.Employee.Emoployee_Functionality@610694f1]" name="Action_Employee_Functioanlity" duration-ms="72506" started-at="2019-08-27T08:49:41Z" finished-at="2019-08-27T08:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Action_Employee_Functioanlity -->
+      </class> <!-- Manage_System.Employee.Emoployee_Functionality -->
+    </test> <!-- Emoployee_Functionality -->
+    <test name="Org_Functionality" duration-ms="178131" started-at="2019-08-27T08:50:54Z" finished-at="2019-08-27T08:53:52Z">
+      <class name="Manage_System.Organization.Organization">
+        <test-method status="PASS" signature="CheckTestCaseExecution()[pri:0, instance:Manage_System.Organization.Organization@551aa95a]" name="CheckTestCaseExecution" is-config="true" duration-ms="1" started-at="2019-08-27T08:50:54Z" finished-at="2019-08-27T08:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTestCaseExecution -->
+        <test-method status="PASS" signature="Add_ORG()[pri:0, instance:Manage_System.Organization.Organization@551aa95a]" name="Add_ORG" duration-ms="74772" started-at="2019-08-27T08:50:54Z" finished-at="2019-08-27T08:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_ORG -->
+        <test-method status="PASS" signature="Edit_ORG()[pri:1, instance:Manage_System.Organization.Organization@551aa95a]" name="Edit_ORG" duration-ms="76317" started-at="2019-08-27T08:52:09Z" finished-at="2019-08-27T08:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_ORG -->
+        <test-method status="PASS" signature="Delete_Organization()[pri:2, instance:Manage_System.Organization.Organization@551aa95a]" name="Delete_Organization" duration-ms="27036" started-at="2019-08-27T08:53:25Z" finished-at="2019-08-27T08:53:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Organization -->
+      </class> <!-- Manage_System.Organization.Organization -->
+    </test> <!-- Org_Functionality -->
+    <test name="Job_Functionality" duration-ms="217614" started-at="2019-08-27T08:53:52Z" finished-at="2019-08-27T08:57:30Z">
+      <class name="Manage_System.Job.Add_Job">
+        <test-method status="PASS" signature="CheckTestCaseExecution()[pri:0, instance:Manage_System.Job.Add_Job@3d99d22e]" name="CheckTestCaseExecution" is-config="true" duration-ms="0" started-at="2019-08-27T08:53:52Z" finished-at="2019-08-27T08:53:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTestCaseExecution -->
+        <test-method status="PASS" signature="Adding_Job()[pri:0, instance:Manage_System.Job.Add_Job@3d99d22e]" name="Adding_Job" duration-ms="118638" started-at="2019-08-27T08:53:52Z" finished-at="2019-08-27T08:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adding_Job -->
+        <test-method status="PASS" signature="Edit_Job()[pri:1, instance:Manage_System.Job.Add_Job@3d99d22e]" name="Edit_Job" duration-ms="78169" started-at="2019-08-27T08:55:51Z" finished-at="2019-08-27T08:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Job -->
+        <test-method status="PASS" signature="Delete_Job()[pri:2, instance:Manage_System.Job.Add_Job@3d99d22e]" name="Delete_Job" duration-ms="20797" started-at="2019-08-27T08:57:09Z" finished-at="2019-08-27T08:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Job -->
+      </class> <!-- Manage_System.Job.Add_Job -->
+      <class name="Master.LogIn">
+        <test-method status="PASS" signature="checkExecutionModeTestSuite()[pri:0, instance:Master.LogIn@3632be31]" name="checkExecutionModeTestSuite" is-config="true" duration-ms="7622" started-at="2019-08-27T08:44:13Z" finished-at="2019-08-27T08:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExecutionModeTestSuite -->
+        <test-method status="PASS" signature="checkExecutionModeTestSuite()[pri:0, instance:Manage_System.Job.Add_Job@3d99d22e]" name="checkExecutionModeTestSuite" is-config="true" duration-ms="184" started-at="2019-08-27T08:44:21Z" finished-at="2019-08-27T08:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExecutionModeTestSuite -->
+      </class> <!-- Master.LogIn -->
+    </test> <!-- Job_Functionality -->
+  </suite> <!-- Masters -->
+</testng-results>

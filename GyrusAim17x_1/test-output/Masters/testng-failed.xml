@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Masters]">
+  <test thread-count="5" name="Job_Functionality(failed)">
+    <classes>
+      <class name="Manage_System.Job.Add_Job">
+        <methods>
+          <include name="Edit_Job"/>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="Delete_Job"/>
+          <include name="CheckTestCaseExecution"/>
+          <include name="Adding_Job"/>
+        </methods>
+      </class> <!-- Manage_System.Job.Add_Job -->
+    </classes>
+  </test> <!-- Job_Functionality(failed) -->
+</suite> <!-- Failed suite [Masters] -->
